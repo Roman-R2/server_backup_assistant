@@ -1,0 +1,34 @@
+# IDE
+.idea/
+
+# Poetry
+poetry.lock
+
+# Python
+*.pyc
+
+# ENVIRONMENTS
+.env
+
+# Настройки
+data/settings.yaml
+data/.token
+
+# Логи
+#logs/*.*
+#logs/!.gitkeep
+logs/server_assistant_gui_logs/*.*
+logs/server_assistant_gui_logs/!.gitkeep
+logs/server_assistant_windows_service_logs/*.*
+logs/server_assistant_windows_service_logs/!.gitkeep
+
+# Databases
+*.sqlite3
+
+# Pyinstaller
+/app-build/
+pyinstaller-creation/
+
+# Other
+data/db2backup/
+\!app-version.txt
